@@ -8,7 +8,8 @@ header{
 	background-color: #036;
 	font-size: 40px;
 	padding: 15px 25px;
-	color: #ccc;}
+	color: #ccc;
+	}
 
 .right {
 	float: right;
@@ -52,6 +53,14 @@ header{
 	margin-bottom: 15px;
 }
 
+.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus,{
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	height: 40px;
+	width: 13%;
+}
+
 .card a {
 	font-size: 20px;
 	padding-left: 10px;
@@ -65,10 +74,12 @@ header{
 
 .leftbuttons {
 	float: left;
+	color: white;
 }
 
 .rightbuttons {
 	float: right;
+	color: white;
 }
 .button1 {
 	color: white;
@@ -81,9 +92,9 @@ header{
 	border: 5px;
 	text-align: center;
 	margin-left: -10px;
+	margin-top: 15px;
+	}
 
-
-}
 .button2{
 	float: right;
 	font-size: 20px;
@@ -122,12 +133,8 @@ header{
 	text-align: center;
 	height: 40px;
 	width: 80px;
+}
 
-}
-.logo {
-	width: 20px;
-	height: 20px;
-}
 .button1, .button2, .button3, .button4 a:hover{
 border: 1px solid white;
 }
@@ -143,6 +150,7 @@ border: 1px solid white;
 	border-bottom: 2px solid #ccc;
 	clear: both;
 	}
+
 .hobbies li {
 	list-style: none;
 }
@@ -183,8 +191,19 @@ video {
 }
 .education p{
 	margin-left: 100px;
-
 }
+
+textarea {
+	width: 90%;
+	height: 60px;
+	margin-left: 20px;
+	}
+
+#ok {
+	margin: auto;
+	width: 25%;
+	display: block;
+}	
 
 /*--------profile boxes-------*/	
 .margin {
@@ -202,7 +221,11 @@ video {
 
 /*----- quote ------ */ 
 .picture {
-	background: url(../images/dogs.jpg);	
+	background: url(../images/wolf.jpg);
+	background-repeat: no-repeat;
+	width: 625px;
+	height: 300px;
+	clear: both;
 	}
 
 
@@ -214,4 +237,4 @@ footer {
 	color: #ccc;
 	padding: 15px;
 
-}
+	}
