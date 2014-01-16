@@ -1,0 +1,188 @@
+body{
+	background: #ccc;
+	font-family: 'Actor', sans-serif;
+	padding: 20px; 
+	}
+
+header{
+	background-color: #036;
+	font-size: 40px;
+	padding: 15px 25px;
+	color: #ccc;}
+
+.right {
+	float: right;
+}	
+ 
+.left {
+	float: left;
+}
+
+/*------------Main Card - my details -------------------*/ 
+.card {
+	width: 620px;
+	height: 350px;
+	background: #369;
+	margin: 10px;
+	}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 30px;
+}
+.card h1, h3 {
+	margin: 10px;
+	
+}
+.card h1{
+	color: #ccc;
+	font-size: 35px;
+	padding-bottom: 10px;
+	padding-top: 29px;
+}
+.card h3 {
+	color: #333;
+	padding-top: 0px;
+}
+.foundicon-mail, .foundicon-phone {
+	color: #d5a725;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.card a {
+	font-size: 20px;
+	padding-left: 10px;
+	color: #d5a725;
+	text-decoration: none;
+}
+.card a:hover{
+	color: #ffdead;
+}
+/*--------Social Buttons -------------*/
+
+.leftbuttons {
+	float: left;
+}
+
+.rightbuttons {
+	float: right;
+}
+.button1 {
+	color: white;
+	float: left;
+	background: #23476a;
+	height: 40px;
+	width: 80px;
+	margin-right: 5px;
+	padding-right: 1%;
+	border: 5px;
+	text-align: center;
+
+}
+.button2{
+	float: right;
+	font-size: 20px;
+	color: white;
+	background: #00abf0;
+	border: 5px;
+	margin-left: 5px;
+	height: 40px;
+	width: 80px;
+	padding-right: 1%;
+}
+
+.button3{
+	float: left;
+	font-size: 20px;
+	color: white;
+	background: #a92a24;
+	border-radius: 5px;
+	height: 40px;
+	width: 80px;
+	padding-right: 1%; 
+
+}
+.button4{
+	float: right;	
+	font-size: 20px;
+	color: white;
+	background: black;
+	border: 5px;
+	
+	height: 40px;
+	width: 80px;
+
+}
+.logo {
+	width: 20px;
+	height: 20px;
+}
+.button1, .button2, .button3, .button4 a:hover{
+border: 1px solid white;
+}
+/*---------Hobbies -----------*/ 
+.hobbies {
+	font-size: 25px;
+	color: #ccc;
+	height: 200px;
+	width: 580px;
+	background: #369;
+	list-style: none;
+	padding: 15px 30px;
+	border-bottom: 2px solid #ccc;
+	clear: both;
+	}
+
+/*--------------video------------------*/
+
+.vid h2{
+	font-size: 25px;
+	color: #ccc;
+	text-align: center;
+}
+.vid{
+	background: #369;
+	height: 350px;
+	width: 580px;
+	padding: 15px 30px;
+	border-bottom: 2px solid #ccc;
+}
+video {
+	width: 100%;
+	height: 250px;
+}
+
+/*-----form --------*/
+.education {
+	width: 580px;
+	height: 300px;
+	background: #369;
+	padding: 15px 30px;
+	border-bottom: 2px solid #ccc; 
+	}
+
+/*--------profile boxes-------*/	
+.margin {
+	margin-top: -240px;
+}
+
+ .margin2 {
+	margin-top: -230px;
+}	
+
+.margin3{
+	margin-top: -160px;
+	
+}
+
+/*----- quote ------ */ 
+.picture {
+	background: url(../images/dogs.jpg);	
+	}
+
+
+}
+/*-------- ---------------------*/ 
