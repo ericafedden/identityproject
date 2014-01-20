@@ -18,8 +18,147 @@ header{
 .left {
 	float: left;
 }
+/*------------cards------------------ */ 
 
-/*------------Main Card - my details -------------------*/ 
+.card {
+	width: 620px;
+	height: 350px;
+	background: #369;
+	margin: 10px;
+	}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 30px;
+}
+.card h1, h3 {
+	margin: 10px;
+	
+}
+.card h1{
+	color: #ccc;
+	font-size: 35px;
+	padding-bottom: 10px;
+	padding-top: 29px;
+}
+.card h3 {
+	color: #333;
+	padding-top: 0px;
+}
+.foundicon-mail, .foundicon-phone {
+	color: #d5a725;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus,{
+	color: white;
+	font-size: 20px;
+	
+}
+.links a{
+	color: white;
+}
+
+.social
+{
+color: white;
+}
+
+.erica
+{
+color: #d5a725;
+}
+
+
+.card .mail a {
+	font-size: 20px;
+	padding-left: 10px;	
+	text-decoration: none;
+}
+.card a {
+	
+}
+.card a:hover{
+	color: #ffdead;
+}
+/*--------Social Buttons -------------*/
+
+.leftbuttons {
+	float: left;
+	color: white;
+}
+
+.rightbuttons {
+	float: left;
+	color: white;
+}
+.button1 {
+	color: white;
+	float: left;
+	background: #23476a;
+	height: 40px;
+	width: 13%px;	
+	padding-right: 1%;
+	text-align: center;	
+	border-radius: 5px;
+	margin: 0px 5px;
+	
+	}
+
+.card p{
+	display: inline;
+	
+
+}
+.button2{
+	float: left;
+	font-size: 20px;
+	color: white;	
+	background: #00abf0;	
+	height: 40px;
+	width: 13%px;
+	padding-right: 1%;
+	text-align: center;
+	margin: 0px 5px;
+}
+
+.button3{
+	float: left;
+	font-size: 20px;
+	color: white;
+	background: #a92a24;
+	border-radius: 5px;	
+	height: 40px;
+	width: 13%px;
+	padding-right: 1%; 
+	text-align: center;
+	margin: 0px 5px;
+	
+
+}
+.button4{
+	float: right;	
+	font-size: 20px;
+	color: white;
+	background: black;	
+	text-align: center;
+	height: 40px;
+	width: 13%;
+	border-radius: 5px;
+	padding-right: 1%;
+	margin: 0px 5px;
+}
+
+.button1, .button2, .button3, .button4, a :hover{
+border: 1px solid white;
+width: 70px;
+
+}
+
+/*------------Main Card - my details ----------------- 
 .card {
 	width: 620px;
 	height: 350px;
@@ -70,7 +209,7 @@ header{
 .card a:hover{
 	color: #ffdead;
 }
-/*--------Social Buttons -------------*/
+/*--------Social Buttons ----------
 
 .leftbuttons {
 	float: left;
@@ -137,7 +276,9 @@ header{
 
 .button1, .button2, .button3, .button4 a:hover{
 border: 1px solid white;
-}
+}  
+
+*/
 /*---------Hobbies -----------*/ 
 .hobbies {
 	font-size: 25px;
