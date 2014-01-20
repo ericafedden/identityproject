@@ -1,7 +1,7 @@
 body{
 	background: #ccc;
 	font-family: 'Actor', sans-serif;
-	padding: 20px;
+	padding: 20px;	
 	}
 
 header{
@@ -19,7 +19,9 @@ header h1{
 	display: inline;
 	width: 48.4%;
 	padding-left: 0px;
+	display: inline;
 	list-style: none;
+	margin-top: 0px;
 }	
  
 .left {
@@ -31,9 +33,10 @@ header h1{
 
 .card {
 	background-color: #369;		
-	margin-top: 10px;	
-	padding: 10px;
-	height: 270px;	
+	margin-top: 10px;
+	margin-bottom: 35px;	
+	padding: 10px;		
+	overflow: hidden;
 	}
 
 .card img {
@@ -41,14 +44,14 @@ header h1{
 	height: 200px;
 	float: left;
 	padding: 30px;	
+	paddin-top; 0px;
 	}
 
 .card h1{
 	color: #ccc;
 	font-size: 35px;
 	padding-bottom: 10px;
-	
-}
+	}
 .card h3 {
 	color: #333;
 	padding-top: 0px;	
@@ -91,68 +94,44 @@ header h1{
 
 .buttons {
 	list-style: none;
-	display: in
 }
-
-.buttons a:hover {
-	border: 1px solid white;
-	}
-
-.button1 {	
+.facebook, .twitter, .google, .linkedin{
 	float: left;
-	background: #23476a;
-	height: 40px;
-	width: 13%px;	
-	padding-right: 1%;
+	color: white;
+	height: 40px;		
 	text-align: center;	
 	border-radius: 5px;
 	margin: 0px 5px;	
 	width: 70px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.buttons a {
+	padding-top: 10px;
+	padding-bottom: -10px;
 	}
 
-.button2{
-	float: left;
-	font-size: 20px;
-	color: white;	
-	background: #00abf0;	
-	height: 40px;
-	width: 13%px;
-	padding-right: 1%;
-	text-align: center;
-	margin: 0px 5px;
-	border-radius: 5px;
-	width: 70px;
+.facebook {	
+	background: #23476a;		
+	padding-right: 1%;		
 	}
 
-.button3{
-	float: left;
-	font-size: 20px;
-	color: white;
-	background: #a92a24;
-	border-radius: 5px;	
-	height: 40px;
-	width: 13%px;
+.twitter {	
+	background: #00abf0;		
+	padding-right: 1%;	
+	}
+
+.google {
+	background: #a92a24;	
 	padding-right: 1%; 
-	text-align: center;
-	margin: 0px 5px;
-	width: 70px;
 	}
 
-.button4{
-	float: left;
-	font-size: 20px;
-	color: white;
-	background: black;	
-	text-align: center;
-	height: 40px;
-	width: 13%;
-	border-radius: 5px;
-	
-	margin: 0px 5px;
+.linkedin{
+	background: black;		
 	}
 
-.button1:hover, .button2:hover, .button3:hover, .button4:hover {	
-	
+.facebook:hover, .twitter:hover, .google:hover, .linkedin:hover {		
 	border: 1px solid white;
 	}
 
@@ -168,7 +147,7 @@ header h1{
 	background: #369;
 	list-style: none;
 	padding: 15px 30px;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px;*/
 	border-bottom: 2px solid #ccc;
 	clear: both;
 	}
@@ -233,18 +212,7 @@ textarea {
 	}	
 
 /*--------profile boxes-------*/	
-.margin {
-	margin-top: -240px;
-}
 
- .margin2 {
-	margin-top: -230px;
-}	
-
-.margin3{
-	margin-top: -160px;
-	
-}
 
 /*----- quote ------ */ 
 .picture {
@@ -261,16 +229,14 @@ textarea {
 	width: 300px;
 	background-color: rgba(0,0,0, .5);
 	margin-left: 160px;
-	position: absolute;
-	
+	position: absolute;	
 	}	
-/*-------- ---------------------*/ 
+/*-----------------------------*/ 
 footer {
+	margin-top: 0px;
 	text-align: right;
 	background: #036;
-	color: #ccc;
+	color: #ccc;	
+	clear: both;
 	padding: 15px;
-	margin-top: 20px;
-	padding-top: 20px;
-	clear:both;
 	}
