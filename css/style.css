@@ -1,7 +1,7 @@
 body{
 	background: #ccc;
 	font-family: 'Actor', sans-serif;
-	padding: 20px; 
+	padding: 20px;
 	}
 
 header{
@@ -47,7 +47,7 @@ header{
 	color: #333;
 	padding-top: 0px;
 }
-.foundicon-mail, .foundicon-phone {
+.foundicon-mail, .foundicon-phone a {
 	color: #d5a725;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
@@ -55,48 +55,52 @@ header{
 
 .foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus,{
 	color: white;
-	font-size: 20px;
-	
-}
-.links a{
+	font-size: 20px;	
+	border: none;
+	}
+
+.social {	
 	color: white;
-}
+	text-decoration: none;
+	}
 
-.social
-{
-color: white;
-}
-
-.erica
-{
-color: #d5a725;
-}
+.erica{
+	color: #d5a725;
+	}
 
 
 .card .mail a {
 	font-size: 20px;
 	padding-left: 10px;	
 	text-decoration: none;
-}
+	}
+
 .card a {
-	
-}
+	text-decoration: none;
+	}
+
 .card a:hover{
 	color: #ffdead;
-}
+	}
 /*--------Social Buttons -------------*/
 
 .leftbuttons {
 	float: left;
-	color: white;
-}
+	}
 
 .rightbuttons {
 	float: left;
-	color: white;
-}
-.button1 {
-	color: white;
+	}
+
+.card p{
+	display: inline;
+	}
+
+.buttons a:hover {
+	border: 1px solid white;
+	}
+
+.button1 {	
 	float: left;
 	background: #23476a;
 	height: 40px;
@@ -104,15 +108,9 @@ color: #d5a725;
 	padding-right: 1%;
 	text-align: center;	
 	border-radius: 5px;
-	margin: 0px 5px;
-	
+	margin: 0px 5px;	
 	}
 
-.card p{
-	display: inline;
-	
-
-}
 .button2{
 	float: left;
 	font-size: 20px;
@@ -123,7 +121,8 @@ color: #d5a725;
 	padding-right: 1%;
 	text-align: center;
 	margin: 0px 5px;
-}
+	border-radius: 5px;
+	}
 
 .button3{
 	float: left;
@@ -136,9 +135,8 @@ color: #d5a725;
 	padding-right: 1%; 
 	text-align: center;
 	margin: 0px 5px;
-	
+	}
 
-}
 .button4{
 	float: right;	
 	font-size: 20px;
@@ -150,135 +148,13 @@ color: #d5a725;
 	border-radius: 5px;
 	padding-right: 1%;
 	margin: 0px 5px;
-}
-
-.button1, .button2, .button3, .button4, a :hover{
-border: 1px solid white;
-width: 70px;
-
-}
-
-/*------------Main Card - my details ----------------- 
-.card {
-	width: 620px;
-	height: 350px;
-	background: #369;
-	margin: 10px;
 	}
 
-.card img {
-	width: 200px;
-	height: 200px;
-	float: left;
-	padding: 30px;
-}
-.card h1, h3 {
-	margin: 10px;
-	
-}
-.card h1{
-	color: #ccc;
-	font-size: 35px;
-	padding-bottom: 10px;
-	padding-top: 29px;
-}
-.card h3 {
-	color: #333;
-	padding-top: 0px;
-}
-.foundicon-mail, .foundicon-phone {
-	color: #d5a725;
-	padding-bottom: 15px;
-	margin-bottom: 15px;
-}
-
-.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus,{
-	color: white;
-	font-size: 20px;
-	border-radius: 5px;
-	height: 40px;
-	width: 13%;
-}
-
-.card a {
-	font-size: 20px;
-	padding-left: 10px;
-	color: #d5a725;
-	text-decoration: none;
-}
-.card a:hover{
-	color: #ffdead;
-}
-/*--------Social Buttons ----------
-
-.leftbuttons {
-	float: left;
-	color: white;
-}
-
-.rightbuttons {
-	float: right;
-	color: white;
-}
-.button1 {
-	color: white;
-	float: left;
-	background: #23476a;
-	height: 40px;
-	width: 80px;
-	margin-right: 5px;
-	padding-right: 1%;
-	border: 5px;
-	text-align: center;
-	margin-left: -10px;
-	margin-top: 15px;
+.button1, .button2, .button3, .button4 a:hover{	
+	width: 70px;
 	}
 
-.button2{
-	float: right;
-	font-size: 20px;
-	color: white;
-	margin-top: -40px;
-	background: #00abf0;
-	border: 5px;
-	margin-left: 5px;
-	height: 40px;
-	width: 80px;
-	padding-right: 1%;
-	text-align: center;
-}
 
-.button3{
-	float: left;
-	font-size: 20px;
-	color: white;
-	background: #a92a24;
-	border-radius: 5px;
-	height: 40px;
-	width: 80px;
-	padding-right: 1%; 
-	text-align: center;
-	margin-left: -20px;
-
-}
-.button4{
-	float: right;
-	margin-right: 5px;
-	margin-top: -40px;	
-	font-size: 20px;
-	color: white;
-	background: black;
-	border: 5px;
-	text-align: center;
-	height: 40px;
-	width: 80px;
-}
-
-.button1, .button2, .button3, .button4 a:hover{
-border: 1px solid white;
-}  
-
-*/
 /*---------Hobbies -----------*/ 
 .hobbies {
 	font-size: 25px;
@@ -311,7 +187,7 @@ border: 1px solid white;
 }
 video {
 	width: 100%;
-	height: 250px;
+	height: 280px;
 }
 
 /*-----form --------*/
@@ -334,6 +210,12 @@ video {
 	margin-left: 100px;
 }
 
+.gap {
+	padding: 15px;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
 textarea {
 	width: 90%;
 	height: 60px;
@@ -344,7 +226,7 @@ textarea {
 	margin: auto;
 	width: 25%;
 	display: block;
-}	
+	}	
 
 /*--------profile boxes-------*/	
 .margin {
@@ -362,20 +244,29 @@ textarea {
 
 /*----- quote ------ */ 
 .picture {
-	background: url(../images/wolf.jpg);
+	background: url(../images/leaf.jpg);
 	background-repeat: no-repeat;
-	width: 625px;
-	height: 300px;
-	clear: both;
+	width: 640px;
+	height: 200px;
 	}
 
+.text{
 
-
+	letter-spacing: -1px;
+	color: white;
+	font-size: 28px;
+	width: 300px;
+	background-color: rgba(0,0,0, .5);
+	margin-left: 160px;
+	position: absolute;
+	
+	}	
 /*-------- ---------------------*/ 
 footer {
 	text-align: right;
 	background: #036;
 	color: #ccc;
 	padding: 15px;
-
+	margin-top: 20px;
+	padding-top: 20px;
 	}
