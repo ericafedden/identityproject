@@ -6,7 +6,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/general_foundicons.css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/social_foundicons.css">
-
 	<title>Identity Project</title>
 </head>
 
@@ -14,34 +13,32 @@
 	<header>
 		<h1>Innovation Indentity</h1>
 	</header>	
-
 	<!-- LEFT DIV -->
-	<div class="left">
+	<div class="myinfo">
 		<!-- top left card -->
 		<div class="card">
 			<img src="images/me.jpg" alt="erica fedden"/> 
-			<h1> Erica-Rose Fedden </h1>
-			<h3> Software Engineer </h3>
-			<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			erica-rose.fedden@capgemini.com </a></i> </p>
-
-			<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
-
+			<h1>Erica-Rose Fedden</h1>
+			<h3>Software Engineer</h3>
+			<p><i class="general foundicon-mail icon"><a class="icon" href="mailto:erica-rose.fedden@capgemini.com">
+			erica-rose.fedden@capgemini.com </a></i></p>
+			<p><i class="general foundicon-phone icon"> <a href="#"> 07814195141</a></i></p>	
 			<ul class="buttons">
 				<!--buttons -->
-				<li class="facebook ">
+				<li class="facebook">
 					<a href="https://www.facebook.com/"><i class="social foundicon-facebook"></i></a></li>
-				<li class="twitter ">
+				<li class="twitter">
 					<a href="https://twitter.com/"> <i class="social foundicon-twitter"></i></a></li>
-				<li class="google "> 
+				<li class="google"> 
 					<a href="https://plus.google.com" ><i class="social foundicon-google-plus"></i></a></li>
-				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
+				<li class="linkedin"> 
+					<a href ="#" ><i class="social foundicon-linkedin"></i></a></li> 
 			</ul>	
 		</div>	
-
-		<!-- hobbies  -->
+		<!-- backgorund info -- > 
 		<ul class="background">
-		<li class="hobbies"> <h3> Your hobbies/ Interests </h3>
+		<!-- hobbies  -->		
+		<li class="hobbies"><h3>Your hobbies/ Interests</h3>
 			<ul>
 				<li>Singing</li>
 				<li>Dancing</li>
@@ -49,138 +46,113 @@
 				<li>Tennis</li>
 			</ul>
 		</li>
-
 		<!-- video --> 
 		<li class="vid">
-			<h2> Your Favourite Video </h2>
-			<video src="http://video.webmfiles.org/big-buck-bunny_trailer.webm" controls autoplay> </video> 
+			<h2>Your Favourite Video</h2>
+			<video src="http://video.webmfiles.org/big-buck-bunny_trailer.webm" controls autoplay></video> 
 		</li>
-
-
 		<!-- form  --> 	
 		<form>
 			<li class="education">
-				<h1> Your Background </h1>
+				<h1> Your Background</h1>
 				<label>Education: </label>
 				<select id = "dropdown">
 					<option value = "1">GSCE</option>
 					<option value = "2">Alevel</option>
 					<option value = "3">Degree</option>               
 				</select>
-
-				<p>
-					<input type="checkbox" name="css" id="css" class="gap"/> HTML	
-					<input type="checkbox" name="css" id="css" class="gap" /> Javascript		
-					<input type="checkbox" name="css" id="css" class="gap" /> Python		
-					<input type="checkbox" name="css" id="css" class="gap" /> Java	
-				</p>
-
-				<p>	
-					<input type="checkbox" name="css" id="css" class="gap"  /> CSS		
-					<input type="checkbox" name="css" id="css"  class="gap" /> PHP	
-					<input type="checkbox" name="css" id="css"  class="gap"/> SQL		
-					<input type="checkbox" name="css" id="css" class="gap" /> C++		
-				</p>
-
-				<label for="comments"></label>
-
-				<textarea id="comments" name="comments"> Tell us something about your past project!...</textarea>
-
-				<p id="ok"> <input type="submit" value="OK!" /> 	</p> 	
-
+				<table border="0" class="checkboxes">
+				<tr>
+				<td><input type="checkbox" name="css" id="css" class="gap"/>HTML</td>
+				<td><input type="checkbox" name="css" id="css" class="gap" />Javascript</td>
+				<td><input type="checkbox" name="css" id="css" class="gap" />Python</td>
+				<td><input type="checkbox" name="css" id="css" class="gap" />Java</td>
+				</tr>
+				<tr>
+				<td><input type="checkbox" name="css" id="css" class="gap"/>CSS</td>
+				<td><input type="checkbox" name="css" id="css" class="gap"/>PHP</td>
+				<td><input type="checkbox" name="css" id="css" class="gap"/>SQL</td>
+				<td><input type="checkbox" name="css" id="css" class="gap"/>C++</td>
+				</tr>
+				</table>
+				<textarea id="comments" name="comments" placeholder="Tell Us About Your Past Project..."></textarea>
+				<p id="ok"><input type="submit" value="OK!"/></p> 	
 			</li>
 		</form>
 	</ul>
-
-
 		<!-- quote -->
 		<div class="picture">
 			<p class="text">"Everything happens for a reason..."</p>
 		</div>
-
 	</div> <!-- end of left div --> 
 
 		<!-- right div  -->
-		<!-- top right card --> 
-		
-		<ul class="right">
+		<!-- top right card --> 		
+		<ul class="colleagues">
 			<li class="card">
-				<img src="images/renee.jpg" alt="erica fedden"/> 
+				<img src="images/renee.jpg" alt="renee blanchard"/> 
 				<h1> Renee Blanchard</h1>
-				<h3> Software Engineer </h3>
-
-				<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			erica-rose.fedden@capgemini.com </a></i> </p>
-
-			<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
-
-			<ul class="buttons">
-				<!--buttons -->
+				<h3> Software Engineer</h3>
+				<p><i class="general foundicon-mail icon"><a class="icon" href="mailto:renee.blanchard@capgemini.com">
+				erica-rose.fedden@capgemini.com </a></i></p>
+				<p><i class="general foundicon-phone icon"> <a href="#"> 07814195141</a></i></p>	
+			<ul class="buttons">				
 				<li class="facebook ">
 					<a href="https://www.facebook.com/"><i class="social foundicon-facebook"></i></a></li>
 				<li class="twitter ">
-					<a href="https://twitter.com/"> <i class="social foundicon-twitter"></i></a></li>
-				<li class="google "> 
-					<a href="https://plus.google.com" ><i class="social foundicon-google-plus"></i></a></li>
-				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
+					<a href="https://twitter.com/"><i class="social foundicon-twitter"></i></a></li>
+				<li class="google"> 
+					<a href="https://plus.google.com"><i class="social foundicon-google-plus"></i></a></li>
+				<li class="linkedin"><a href ="#"><i class="social foundicon-linkedin"></i></a></li> 
 			</ul>	
-				</li>	
-		
-		 <!-- next right card 2  -->
-		
-			
-				<li class="card">
-					<img src="images/ed.jpg" alt="erica fedden"/> 
-					<h1> Ed  De Mott </h1>
-					<h3> Software Engineer </h3>
-					<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			erica-rose.fedden@capgemini.com </a></i> </p>
-
-					<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
-
-			<ul class="buttons">
+			</li>			
+		 <!-- next right card 2  -->	
+			<li class="card">
+					<img src="images/ed.jpg" alt="ed demott"/> 
+					<h1>Ed  De Mott</h1>
+					<h3>Software Engineer</h3>
+					<p><i class="general foundicon-mail icon"><a class="icon" href="mailto:erica-rose.fedden@capgemini.com">
+			ed-DeMott.fedden@capgemini.com </a></i></p>
+					<p><i class="general foundicon-phone icon"> <a href="#"> 07814195141</a></i></p>	
+				<ul class="buttons">
 				<!--buttons -->
-				<li class="facebook ">
+				<li class="facebook">
 					<a href="https://www.facebook.com/"><i class="social foundicon-facebook"></i></a></li>
-				<li class="twitter ">
-					<a href="https://twitter.com/"> <i class="social foundicon-twitter"></i></a></li>
-				<li class="google "> 
-					<a href="https://plus.google.com" ><i class="social foundicon-google-plus"></i></a></li>
-				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
-			</ul>	
-				</li>	
-
+				<li class="twitter">
+					<a href="https://twitter.com/"><i class="social foundicon-twitter"></i></a></li>
+				<li class="google"> 
+					<a href="https://plus.google.com"><i class="social foundicon-google-plus"></i></a></li>
+				<li class="linkedin"><a href ="#" ><i class="social foundicon-linkedin"></i></a></li> 
+				</ul>	
+			</li>	
 			<!-- card 3 -->
 			<li class="card">
 					<img src="images/ben.jpg" alt="ben mcgeachy"/> 
-					<h1> Ben McGeachy </h1>
-					<h3> Software Engineer </h3>
-					<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			ben-mcgeachy@capgemini.com </a></i> </p>
-
-					<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
+					<h1>Ben McGeachy</h1>
+					<h3>Software Engineer</h3>
+					<p><i class="general foundicon-mail icon"><a class="icon" href="mailto:ben.mcgeachy@capgemini.com">
+			ben-mcgeachy@capgemini.com </a></i></p>
+					<p><i class="general foundicon-phone icon"><a href="#">07814195141</a></i></p>	
 
 			<ul class="buttons">
 				<!--buttons -->
 				<li class="facebook ">
 					<a href="https://www.facebook.com/"><i class="social foundicon-facebook"></i></a></li>
 				<li class="twitter ">
-					<a href="https://twitter.com/"> <i class="social foundicon-twitter"></i></a></li>
-				<li class="google "> 
-					<a href="https://plus.google.com" ><i class="social foundicon-google-plus"></i></a></li>
-				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
+					<a href="https://twitter.com/"><i class="social foundicon-twitter"></i></a></li>
+				<li class="google"> 
+					<a href="https://plus.google.com"><i class="social foundicon-google-plus"></i></a></li>
+				<li class="linkedin"><a href ="#"><i class="social foundicon-linkedin"></i></a></li> 
 			</ul>	
-				</li>	
-
+			</li>	
 			<!-- card 4 --> 
 			<li class="card">
-					<img src="images/ed.jpg" alt="erica fedden"/> 
-					<h1> Ed  De Mott </h1>
-					<h3> Software Engineer </h3>
-					<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			erica-rose.fedden@capgemini.com </a></i> </p>
-
-					<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
+					<img src="images/adam.jpg" alt="adam stacey"/> 
+					<h1>Adam Stacey</h1>
+					<h3>Software Engineer</h3>
+					<p><i class="general foundicon-mail icon"><a class="icon" href="mailto:adam.stacey@capgemini.com">
+			adam.stacey@capgemini.com</a></i></p>
+					<p><i class="general foundicon-phone icon"><a href="#">07814195141</a></i></p>	
 
 			<ul class="buttons">
 				<!--buttons -->
@@ -192,17 +164,16 @@
 					<a href="https://plus.google.com" ><i class="social foundicon-google-plus"></i></a></li>
 				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
 			</ul>	
-				</li>	
+			</li>	
 
 			<!-- card 5 --> 
 				<li class="card">
-					<img src="images/ed.jpg" alt="erica fedden"/> 
-					<h1> Ed  De Mott </h1>
-					<h3> Software Engineer </h3>
-					<p>	<i class="general foundicon-mail erica"><a class="erica" href="mailto:erica-rose.fedden@capgemini.com">
-			erica-rose.fedden@capgemini.com </a></i> </p>
-
-					<p><i class="general foundicon-phone erica"> <a href="#"> 07814195141</a></i> </p>	
+					<img src="images/lefty.jpg" alt="Lefteris Paraskevas"/> 
+					<h1>Lefteris Paraskevas</h1>
+					<h3>Software Engineer </h3>
+					<p>	<i class="general foundicon-mail icon"><a class="icon" href="mailto:erica-rose.fedden@capgemini.com">
+			lefteris.paraskevas@capgemini.com </a></i></p>
+					<p><i class="general foundicon-phone icon"><a href="#">07814195141</a></i></p>	
 
 			<ul class="buttons">
 				<!--buttons -->
@@ -215,13 +186,10 @@
 				<li class="linkedin"> <a href ="#" > <i class="social foundicon-linkedin"></i></a></li> 
 			</ul>	
 				</li>
-
 		</ul>
+
 		<!-- footer --> 
-		
-
 		<footer> <h2>Created by Erica-Rose Fedden </h2> </footer> 
-
 		</body>
 		</html>
 

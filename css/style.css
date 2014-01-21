@@ -2,31 +2,29 @@ body{
 	background: #ccc;
 	font-family: 'Actor', sans-serif;
 	padding: 20px;	
-	}
+}
 
 header{
 	background-color: #036;	
 	padding: 15px 25px;	
-	}
-
+}
 header h1{
 	font-size: 40px;
 	color: #ccc;
-	}
-
-.right {
+}
+.colleagues{
 	float: right;
 	display: inline;
-	width: 48.4%;
+	width: 49%;
 	padding-left: 0px;
 	display: inline;
 	list-style: none;
 	margin-top: 0px;
 }	
  
-.left {
+.myinfo {
 	float: left;
-	width: 48.4%;
+	width: 49%;
 	display: inline;
 }
 /*------------cards------------------ */ 
@@ -37,21 +35,19 @@ header h1{
 	margin-bottom: 35px;	
 	padding: 10px;		
 	overflow: hidden;
-	}
+}
 
 .card img {
 	width: 200px;
 	height: 200px;
 	float: left;
 	padding: 30px;	
-	paddin-top; 0px;
-	}
-
+}
 .card h1{
 	color: #ccc;
 	font-size: 35px;
 	padding-bottom: 10px;
-	}
+}
 .card h3 {
 	color: #333;
 	padding-top: 0px;	
@@ -60,45 +56,45 @@ header h1{
 .foundicon-mail, .foundicon-phone a {
 	color: #d5a725;	
 }
-
-.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus,{
-	color: white;
-	font-size: 20px;	
-	border: none;
-	padding-top: 25px;
-	}
-
-.social {	
-	color: white;
-	text-decoration: none;
-	}
-
-.erica{
+.icon {
 	color: #d5a725;
-	}
+}
 
 .card .mail a {
 	font-size: 20px;
 	padding-left: 10px;	
 	text-decoration: none;
-	}
+}
 
 .card a {
 	text-decoration: none;
-	}
-
+}
 .card a:hover{
 	color: #ffdead;
-	}
+}
 /*--------Social Buttons -------------*/
 
 .buttons {
 	list-style: none;
 }
+.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus {
+	color: white;
+	font-size: 20px;	
+	border: none;	
+	padding-top: 25px;
+}
+
+.buttons li{
+	padding-top: 5px;
+}	
+
+.social {	
+	color: white;
+	text-decoration: none;
+}
 .facebook, .twitter, .google, .linkedin{
 	float: left;
-	color: white;
-	height: 40px;		
+	color: white;		
 	text-align: center;	
 	border-radius: 5px;
 	margin: 0px 5px;	
@@ -115,29 +111,29 @@ header h1{
 .facebook {	
 	background: #23476a;		
 	padding-right: 1%;		
-	}
+}
 
 .twitter {	
 	background: #00abf0;		
 	padding-right: 1%;	
-	}
+}
 
 .google {
 	background: #a92a24;	
 	padding-right: 1%; 
-	}
+}
 
 .linkedin{
 	background: black;		
-	}
+}
 
 .facebook:hover, .twitter:hover, .google:hover, .linkedin:hover {		
 	border: 1px solid white;
-	}
+}
 
 
 /*---------Hobbies -----------*/ 
-.background{
+.background li {
 	list-style: none;
 	padding-left: 0px;
 }
@@ -147,28 +143,27 @@ header h1{
 	background: #369;
 	list-style: none;
 	padding: 15px 30px;
-	/* margin-bottom: 10px;*/
 	border-bottom: 2px solid #ccc;
 	clear: both;
-	}
+}
 
 .hobbies li{
 	list-style: none ;
 }
-	
-	
 /*-------------video------------------*/
-
 .vid h2{
 	font-size: 25px;
 	color: #ccc;
 	text-align: center;
 }
+
 .vid{
 	background: #369;	
 	padding: 15px 30px;
 	border-bottom: 2px solid #ccc;
+	list-style: none;
 }
+
 video {
 	width: 100%;
 	height: auto;
@@ -179,8 +174,12 @@ video {
 	background: #369;
 	padding: 15px 30px;
 	border-bottom: 2px solid #ccc; 
-
-	}
+	list-style: none;
+}
+form h1 {
+	font-size: 22px;
+	color: #ccc;	
+}	
 #dropdown{
 	width: 50%;
 	padding-left: 20px;
@@ -191,46 +190,43 @@ video {
 .education p{
 	margin-left: 100px;
 }
-
-/*ap {
-	padding: 15px;
-	margin-left: 25px;
-	margin-right: 10px;
+.checkboxes{
+	width: 90%;
+	padding-left: 5%;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
-*/
 
 textarea {
 	width: 90%;
 	height: 60px;
 	margin-left: 20px;
-	}
+}
 
 #ok {
 	margin: auto;
 	width: 25%;
 	display: block;
-	}	
-
-/*--------profile boxes-------*/	
-
+}	
 
 /*----- quote ------ */ 
 .picture {
 	background: url(../images/leaf.jpg);
 	background-repeat: no-repeat;	
 	height: 200px;
-	margin-bottom: 10px;
-	}
+	padding: 15px 30px;
+	border-bottom: 2px solid #ccc;
+}
 
 .text{
 	letter-spacing: -1px;
 	color: white;
 	font-size: 28px;
-	width: 300px;
+	width: 20%;
 	background-color: rgba(0,0,0, .5);
 	margin-left: 160px;
 	position: absolute;	
-	}	
+}	
 /*-----------------------------*/ 
 footer {
 	margin-top: 0px;
@@ -239,4 +235,4 @@ footer {
 	color: #ccc;	
 	clear: both;
 	padding: 15px;
-	}
+}
