@@ -12,9 +12,25 @@ header h1{
 	font-size: 40px;
 	color: #ccc;
 }
+
+/*
+TODO:
+Float with display inline is usually wrong. You do not need both.
+You probably need to change this css if you refactor the markup
+a bit.
+ */
 .colleagues{
 	float: right;
 	display: inline;
+
+	/*
+	TODO:
+	Why do u need 49% here?
+	As a rule try to avoid number like this (i have seen thse numbers called
+	'magic numbers' because they magically work)
+	Again i think if you just clean up the markup of the card your css will
+	be much simpler
+	 */
 	width: 49%;
 	padding-left: 0px;
 	display: inline;
@@ -180,6 +196,11 @@ form h1 {
 	font-size: 22px;
 	color: #ccc;	
 }	
+/*
+As a rule use css classes and not ids for styling
+We put ids to elements usually for JS reasons.
+A class is what you should use for styling :-)
+ */
 #dropdown{
 	width: 50%;
 	padding-left: 20px;
@@ -202,7 +223,11 @@ textarea {
 	height: 60px;
 	margin-left: 20px;
 }
-
+/*
+As a rule use css classes and not ids for styling
+We put ids to elements usually for JS reasons.
+A class is what you should use for styling :-)
+ */
 #ok {
 	margin: auto;
 	width: 25%;
